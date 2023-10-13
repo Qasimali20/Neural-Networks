@@ -1,2 +1,2 @@
 # Neural-Networks
-Practice projects using neural networks
+Practice projects using different type of neural networks
