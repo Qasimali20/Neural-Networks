@@ -44,3 +44,5 @@ if uploaded_file is not None:
         st.write(f'Prediction: {predicted_label}')
         st.write(f'Confidence: {confidence:.2f}')
 
+if __name__=='__main__':
+    app.run(debug=True)
