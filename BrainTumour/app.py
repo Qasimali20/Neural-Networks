@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelBinarizer
 
 # Load the trained model
-model = load_model('BrainTumour/brain.h5')
+model = load_model('brain-tumor.h5')
 # Define the categories (classes) of the dataset
 labels = ['glioma_tumor', 'meningioma_tumor', 'no_tumor', 'pituitary_tumor']
 
